@@ -1,7 +1,8 @@
 /* Fondo cupcake */
 
 .login-box {
-    background-image: url(../img/registro/corales-1.jpg);
+  /*   background-image: url(../img/registro/corales-1.jpg); */
+  background-color: white;
     background-size: cover;
     min-height: 100%;
     height: auto !important;
@@ -37,7 +38,7 @@ h2 {
 /* Bienvenida color */
 
 .title-login {
-    color: var(--rosa-obscuro);
+    color: #0e7faf;
 }
 
 
@@ -45,11 +46,11 @@ h2 {
 
 .card-logo {
     border-color: transparent;
-    background-color: var(--rosa-3);
+    background-color: white;
 }
 
 .card-registration {
-    background-color: var(--rosa-3);
+    background-color: white;
     border-radius: 10rem;
     align-items: center;
 }
@@ -65,7 +66,7 @@ preloader de la pagina
 
 .centrado {
     height: 100vh;
-    background-color: var(--rosa-3);
+    background-color: #0e7faf;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +81,7 @@ preloader de la pagina
     width: 150px;
     height: 150px;
     border: 10px solid #eee;
-    border-top: 10px solid var(--rosa-obscuro);
+    border-top: 10px solid #0e7faf;
     border-radius: 50%;
     animation-name: girar;
     animation-duration: 2s;
@@ -172,7 +173,7 @@ dependiendo la validación*/
     top: -3rem;
     font-size: 16px;
     left: 1.5rem;
-    background-color: var(--rosa-3);
+    background-color: #0e7faf;
 }
 
 
@@ -188,7 +189,7 @@ dependiendo la validación*/
     position: relative;
     height: 4rem;
     width: 330px;
-    background-color: var(--blanco-kitty);
+    background-color: white;
     border-radius: 2rem;
 }
 
@@ -198,7 +199,7 @@ dependiendo la validación*/
     left: 0;
     width: 100%;
     height: 100%;
-    border: 1px solid var(--rosa-kitty);
+    border: 1px solid #0e7faf;
     border-radius: 2rem;
     font-family: inherit;
     font-size: 16px;
@@ -214,11 +215,11 @@ dependiendo la validación*/
 /* Efectos de hover al dar click */
 
 .form-input:hover {
-    border: 2px solid var(--rosa-kitty);
+    border: 2px solid #0e7faf;
 }
 
 .form-input:focus {
-    border: 2px solid var(--rosa-obscuro);
+    border: 2px solid #0e7faf;
 }
 
 
@@ -231,10 +232,10 @@ dependiendo la validación*/
     left: 1rem;
     border-radius: 2rem;
     padding: 0 0.5rem;
-    color: var(--rosa-obscuro);
+    color: white;
     cursor: text;
     transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
-    background-color: var(--rosa-3);
+    background-color: #0e7faf;
 }
 
 
@@ -245,7 +246,7 @@ dependiendo la validación*/
     top: -3rem;
     font-size: 16px;
     left: 1.5rem;
-    background-color: var(--rosa-3);
+    background-color: #0e7faf;
 }
 
 

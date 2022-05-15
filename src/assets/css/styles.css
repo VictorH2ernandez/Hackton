@@ -107,7 +107,7 @@ p {
 
 /* botones */
 .boton-primario {    
-    background-color: var(--rosa-kitty);
+    background-color: #0e7faf;
     border: none;
     border-radius: 6px;
     color: white;
@@ -119,16 +119,16 @@ p {
 }
 
 .boton-primario:hover {
-    background-color: var(--rosa-obscuro);
+    background-color: #0e7faf;
     color: white;
     text-decoration: none;
 }
 
 .boton-secundario {    
     background-color: white;
-    border: 2px solid var(--rosa-kitty);
+    border: 2px solid #0e7faf;
     border-radius: 6px;
-    color: var(--rosa-kitty);
+    color: #0e7faf;
     padding: 9px 32px;
     text-align: center;
     text-decoration: none;
