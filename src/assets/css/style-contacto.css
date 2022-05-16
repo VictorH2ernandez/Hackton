@@ -1,3 +1,7 @@
+body{
+     background-image: url(https://th.bing.com/th/id/R.ea806bcc78a40aae9206915409eed201?rik=X3FJaLJpLn1smw&riu=http%3a%2f%2fwww.viberco.es%2fwp-content%2fuploads%2f2018%2f08%2ffondo-blanco.jpg&ehk=F1ph1G21BqdRbJlnPRWxgQD%2f4JqQbyKTKx3P8YF6XYU%3d&risl=&pid=ImgRaw&r=0);
+}
+
 .header-contáctanos{   
      position: relative; 
      display: flex;
@@ -10,7 +14,7 @@
  
 .texto-contáctanos {
      font-family: 'Baloo Bhai 2';
-     color: var(--rosa-obscuro);
+     color: #0e7faf;
      position: absolute;
      top: 42%;
      left: 50%;
@@ -19,12 +23,13 @@
 
 .containerform{ 
      border-radius: 2rem;
-     background-color: var(--rosa-3);
+     background-color:  #0e7faf;
      width: 90%;
      margin-left: auto;
      margin-right: auto; 
      padding-top: 30px;
      margin-bottom: 30px;
+     border-color:black;
 }
 
 form{
@@ -107,7 +112,7 @@ dependiendo la validación*/
   top: -3rem;
   font-size: 16px;
   left: 1.5rem;
-  background-color: var(--rosa-3);
+  background-color:  #0e7faf;
 }
 
 /*Efecto inputs*/
@@ -115,7 +120,7 @@ dependiendo la validación*/
 .form-outline{
      /*display: block;*/
      position: relative;
-     background-color: var(--rosa-3);
+     background-color:  #0e7faf;
      /*height: 4rem;*/
      height: auto;
      border-radius: 2rem;
@@ -139,7 +144,7 @@ dependiendo la validación*/
   left: 0;
   width: 100%;
   /*height: 100%;*/
-  border: 1px solid var(--rosa-kitty);
+  border: 1px solid white;
   border-radius: 2rem;
   font-family: inherit;
   font-size: 16px;
@@ -155,7 +160,7 @@ dependiendo la validación*/
    display: block; 
    top: 0;
    left: 0;
-   border: 1px solid var(--rosa-kitty);
+   border: 1px solid white;
    color: var(--gris-kitty);
    border-radius: 2rem; 
    /*padding: 10px 10px;*/
@@ -170,7 +175,7 @@ dependiendo la validación*/
 }
 
 .form-input:hover{
-  border:2px solid var(--rosa-kitty);
+  border:2px solid black;
 }
 
 .form-input:focus{
@@ -178,7 +183,7 @@ dependiendo la validación*/
 }
 
 .form-input-box:hover{
-  border:2px solid var(--rosa-kitty);
+  border:2px solid black;
 }
 
 .form-input-box:focus{
@@ -195,12 +200,13 @@ dependiendo la validación*/
   border-radius: 2rem;
   /*padding: 4px 5px;*/ 
   padding: 0 0.5rem;
-  color: var(--rosa-obscuro);
+  color:  #0e7faf;
   cursor: text;
   transition: top 200ms ease-in,
   left 200ms ease-in,
   font-size 200ms ease-in;
   background-color: var(--rosa-3);
+  color: white;
 }
 
 
@@ -209,7 +215,8 @@ dependiendo la validación*/
   top: -3rem;
   font-size: 16px;
   left: 1.5rem;
-  background-color: var(--rosa-3);
+  background-color:  #0e7faf;
+  color: white;
 }
 
 .form-input-box:focus ~ .label-name, 
@@ -217,7 +224,7 @@ dependiendo la validación*/
   top: -3rem;
   font-size: 16px;
   left: 1.5rem;
-  background-color: var(--rosa-3);
+  background-color:  #0e7faf;
 }
 
  /*-----------------------------------------*/
