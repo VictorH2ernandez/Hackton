@@ -150,7 +150,7 @@ p {
 .boton-secundario:hover {
     background-color:  #0e7faf;
     color: white;
-    border: 2px solid var(--rosa-obscuro);
+    border: 2px solid white;
 }
 
 
@@ -164,7 +164,7 @@ preloader de la pagina
 
 .centrado {
     height: 100vh;
-    background-color: var(--rosa-3);
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,7 +176,7 @@ preloader de la pagina
     width: 150px;
     height: 150px;
     border: 10px solid #eee;
-    border-top: 10px solid var(--rosa-obscuro);
+    border-top: 10px solid  #0e7faf;
     border-radius: 50%;
     animation-name: girar;
     animation-duration: 2s;

@@ -1,7 +1,7 @@
 /* Fondo cupcake */
 
 .login-box {
-  /*   background-image: url(../img/registro/corales-1.jpg); */
+    background-image: url(../img/registro/pregunta12.jpg); 
   background-color: white;
     background-size: cover;
     min-height: 100%;
@@ -25,20 +25,21 @@ font-size: 15px;
 
 h1 {
     font-size: 7vw;
+    color:white;
 }
 
 
 /* Titulo de contacto */
 
 h2 {
-    color: black;
+    color: #0e7faf;
 }
 
 
 /* Bienvenida color */
 
 .title-login {
-    color: #0e7faf;
+    color: black;
 }
 
 
@@ -66,7 +67,7 @@ preloader de la pagina
 
 .centrado {
     height: 100vh;
-    background-color: #0e7faf;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,8 +81,8 @@ preloader de la pagina
     margin-top: 250px;
     width: 150px;
     height: 150px;
-    border: 10px solid #eee;
-    border-top: 10px solid #0e7faf;
+    border: 10px solid  white;
+    border-top: 10px solid  #0e7faf;
     border-radius: 50%;
     animation-name: girar;
     animation-duration: 2s;
