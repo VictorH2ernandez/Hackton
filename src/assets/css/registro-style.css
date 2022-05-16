@@ -1,6 +1,6 @@
 /*Contenedor de Imagen*/
 .container-registro{
-    background-image: url(../img/registro/fondo-cupcakes.png);
+  background-image: url(../img/registro/pregunta12.jpg);
     background-size: cover;
     min-height: 100%;
     height: auto !important;
@@ -15,18 +15,21 @@
   width: 170px; /*130*/
 }
 
+h2{
+  color: #0e7faf;
+}
 /*Color de Bienvenida*/
 .title-login{
-    color: var(--rosa-obscuro);
+    color: black;
 }
 
 /*Color y alinación de contenido de contenedor de formulario*/
 .card-logo{
   border-color:transparent;
-  background-color: var(--rosa-3);
+  background-color: white;
 }
 .card-registration{
-  background-color: var(--rosa-3);
+  background-color: white;
   border-radius: 10rem;
   align-items: center;
 }
@@ -91,7 +94,7 @@ dependiendo de lo que arroge el submit del form*/
 .form-outline{
   position: relative;
   height: 4rem;
-  background-color: var(--blanco-kitty);
+  background-color: white;
   border-radius: 2rem;
 }
 
@@ -101,11 +104,11 @@ dependiendo de lo que arroge el submit del form*/
   left: 0;
   width: 100%;
   height: 100%;
-  border: 1px solid var(--rosa-kitty);
+  border: 1px solid #0e7faf;
   border-radius: 2rem;
   font-family: inherit;
   font-size: 16px;
-  color: black;
+  color: #0e7faf;
   outline: none;
   padding: 1.25rem;
   padding-left: 1.5rem;
@@ -115,11 +118,11 @@ dependiendo de lo que arroge el submit del form*/
 
 /*Efecto al colocar cursos sobre inputs y dar clic a los mismos*/
 .form-input:hover{
-  border:2px solid var(--rosa-kitty);
+  border:2px solid #0e7faf;
 }
 
 .form-input:focus{
-  border: 2px solid var(--rosa-obscuro);
+  border: 2px solid #0e7faf;
 }
 
 /*formato y posición de títulos de inputs antes de agregar contenido*/
@@ -130,12 +133,12 @@ dependiendo de lo que arroge el submit del form*/
   left: 1rem;
   border-radius: 2rem;
   padding: 0 0.5rem;
-  color: var(--rosa-obscuro);
+  color:white;
   cursor: text;
   transition: top 200ms ease-in,
   left 200ms ease-in,
   font-size 200ms ease-in;
-  background-color: var(--rosa-3);
+  background-color: #0e7faf;
 }
 
 /*Efecto de elevar los títulos al dar clic dentro de los inputs*/
@@ -144,7 +147,7 @@ dependiendo de lo que arroge el submit del form*/
   top: -3rem;
   font-size: 16px;
   left: 1.5rem;
-  background-color: var(--rosa-3);
+  background-color: #0e7faf;
 }
 
  /*-----------------------------------------*/
@@ -162,7 +165,7 @@ dependiendo de lo que arroge el submit del form*/
 }
 
 .icon{
-  color: black;
+  color: #0e7faf;
 }
 
 #label-contra{
@@ -178,7 +181,7 @@ dependiendo de lo que arroge el submit del form*/
     align-items: center;
   }
   .title-login{
-    color: var(--rosa-obscuro);
+    color: #0e7faf;
     font-size: 90px;
   }
 
@@ -190,7 +193,7 @@ dependiendo de lo que arroge el submit del form*/
     align-items: center;
   }
   .title-login{
-    color: var(--rosa-obscuro);
+    color: #0e7faf;
     font-size: 80px;
   }
 
@@ -202,7 +205,7 @@ dependiendo de lo que arroge el submit del form*/
     align-items: center;
   }
   .title-login{
-    color: var(--rosa-obscuro);
+    color: #0e7faf;
     font-size: 60px;
   }
 
@@ -210,7 +213,7 @@ dependiendo de lo que arroge el submit del form*/
 
 @media only screen and (max-width: 576px) {
   .title-login{
-    color: var(--rosa-obscuro);
+    color: #0e7faf;
     font-size: 45px;
   }
   .subtitle-signup{

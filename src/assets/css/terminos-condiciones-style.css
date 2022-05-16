@@ -1,10 +1,10 @@
 body {
-    background-color: var(--rosa-3);
+    background-color: white;
 
 }
 
 h1 {
-    color: var(--rosa-obscuro);
+    color: #0e7faf;
     text-align: center;
     margin: 6rem auto;
 }
