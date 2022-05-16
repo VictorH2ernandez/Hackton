@@ -4,8 +4,8 @@
     --rosa-obscuro: #6871f3;
     --rosa-kitty: #FA94A2;
     --rosa-2: #EFBBBB;
-    --rosa-3: #041b83;
-    --rosa-4: #110406;
+    --rosa-3: #000000;
+    --rosa-4: #000000;
     --blanco-kitty: #FFF8FA;
     --gris-kitty: #000000;
 }
@@ -191,6 +191,10 @@ preloader de la pagina
     to {
         transform: rotate(360deg);
     }
+}
+
+.color-inicio {
+    color: #FFF8FA;
 }
 
 
