@@ -1,65 +1,63 @@
-
-
 /* =======================================SECCION 1 CAROUSEL======================================== */
 
-.carousel-inner{
+.carousel-inner {
     max-height: 80%;
     border: none;
 }
-#img-size-carousel{
+
+#img-size-carousel {
     width: 100%;
     display: block;
 }
 
-.carousel-header{
+.carousel-header {
     text-align: center;
     font-size: 9vw;
     margin-top: 3%;
 }
 
-.carousel-subheaders{
+.carousel-subheaders {
     text-align: center;
     font-size: 9vw;
     margin-top: 11%;
 }
 
-.carousel-subheaders-3rdSlide{
+.carousel-subheaders-3rdSlide {
     text-align: center;
     font-size: 8vw;
     margin-top: 11%;
     margin-bottom: 2%;
 }
 
-.btn-align{
+.btn-align {
     align-items: center;
 }
 
-.logo-inicio-carrusel{
+.logo-inicio-carrusel {
     width: 60%;
     height: auto;
     display: block;
     margin: auto;
     margin-top: 5%;
     background: none;
-    
 }
 
-.btn-font-main-header{
+.btn-font-main-header {
     color: white;
     font-weight: bold;
     font-size: 2.5vw;
-    background-color: #FA94A2;
+    background-color: #0f024d;
     border-width: thin;
     border: none;
     margin-top: 5%;
     border-radius: 1rem;
 }
 
-.btn-font-subheaders{
+.btn-font-subheaders {
     color: white;
     font-weight: bold;
     font-size: 2.5vw;
-    background-color: #FA94A2;
+    background-color: #000000;
     border-width: thin;
     border: none;
     margin-top: 11%;
@@ -68,28 +66,32 @@
 
 @media (min-width: 0px) {
     .objects-hidden {
-      display: none;
+        display: none;
     }
-  }
-  @media (min-width: 750px) {
+}
+
+@media (min-width: 750px) {
     .objects-hidden {
-      display:flex;
+        display: flex;
     }
-  }
+}
 
 
 /* =====SECCIÓN 2 PREVIEW PRODUCTOS======== */
-.margen-inf-btn-orejas{
+
+.margen-inf-btn-orejas {
     margin-bottom: 7%;
 }
 
+
 /*Colocar opacidad a background*/
-.products-background-img{
+
+.products-background-img {
     background: var(--rosa-4);
     position: relative;
 }
-.products-background-img::before{
-    background: url("../img/pastelitos-long.png");
+
+.products-background-img::before {
     content: '';
     position: absolute;
     top: 0;
@@ -97,9 +99,11 @@
     height: 100%;
     opacity: .3;
 }
+
+
 /*-------------------------------------------*/
 
-#pastel-menu-preview{
+#pastel-menu-preview {
     width: 60%;
     height: auto;
     clip-path: circle();
@@ -107,7 +111,7 @@
     margin: auto;
 }
 
-#articulos-preview{
+#articulos-preview {
     width: 60%;
     height: auto;
     clip-path: circle();
@@ -115,30 +119,29 @@
     margin: auto;
 }
 
-#title-items-preview{
+#title-items-preview {
     margin: 8rem 17rem;
     text-align: center;
 }
 
-#buttons-home{
+#buttons-home {
     margin: 0 30rem;
     display: block;
 }
 
-.ears-banner-img{
+.ears-banner-img {
     width: 60%;
-    height: auto; 
+    height: auto;
 }
 
-.div-ears-banner{
+.div-ears-banner {
     position: relative;
     display: inline-block;
     margin-left: 28%;
     margin-top: 5%;
-
 }
 
-.texto-banner-encima-centrado{
+.texto-banner-encima-centrado {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -146,6 +149,7 @@
     text-align: center;
     font-size: 2vw;
 }
+
 
 /* =====SECCIÓN 3 CARRUSEL INFERIOR ======== */
 
@@ -159,17 +163,17 @@
     padding-bottom: 0%;
 }
 
-.carrusel-team-kitty img{
-    width: 30%;    
+.carrusel-team-kitty img {
+    width: 30%;
 }
 
-.carrusel-team-kitty a{
-    text-decoration: none;   
+.carrusel-team-kitty a {
+    text-decoration: none;
 }
 
-.carrusel-team-kitty h1{
+.carrusel-team-kitty h1 {
     color: var(--gris-kitty);
-    font-size: 8rem;    
+    font-size: 8rem;
 }
 
 .carrusel-team-img {
@@ -178,7 +182,7 @@
     padding: 10%;
 }
 
-.slider {    
+.slider {
     padding: 0%;
     width: 80%;
     margin: 0% auto;
